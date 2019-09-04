@@ -6,7 +6,7 @@ import com.spring.discountservice.model.item.ItemCat;
 
 import java.util.List;
 
-public class Billing {
+public class BillingService {
 
     /**
      * This is the main function of the program, it takes a bill Object and returns the total

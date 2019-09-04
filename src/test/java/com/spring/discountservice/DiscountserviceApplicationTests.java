@@ -5,7 +5,7 @@ import com.spring.discountservice.model.item.Item;
 import com.spring.discountservice.model.item.ItemCat;
 import com.spring.discountservice.model.user.User;
 import com.spring.discountservice.model.user.UserType;
-import com.spring.discountservice.service.Billing;
+import com.spring.discountservice.service.BillingService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -21,7 +21,7 @@ import java.util.GregorianCalendar;
 @SpringBootTest
 public class DiscountserviceApplicationTests {
 
-	private Billing billCalculator = new Billing();
+	private BillingService billCalculator = new BillingService();
 
 	@Test
 	public void affiliateDiscount() {
